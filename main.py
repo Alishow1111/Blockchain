@@ -18,7 +18,7 @@ class Block:
         return hashlib.sha256(block_string.encode()).hexdigest()
 
 class Blockchain:
-    difficulty = 2  # Difficulty of the proof of work algorithm
+    difficulty = 4  # Difficulty of the proof of work algorithm
 
     def __init__(self):
         self.unconfirmed_transactions = []  # data yet to get into the blockchain
